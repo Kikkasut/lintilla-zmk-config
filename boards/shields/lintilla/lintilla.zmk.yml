@@ -1,0 +1,13 @@
+file_format: "1"
+id: lintilla
+name: lintilla 
+type: shield
+url: https://github.com/Kikkasut/zmk-config-lintilla
+requires: [pro_micro]
+exposes: [i2c_oled]
+features:
+  - keys
+siblings:
+  - lintilla_left
+  - lintilla_right
+  - lintilla_dongle
