@@ -1,13 +1,18 @@
 file_format: "1"
 id: lintilla
-name: lintilla 
+name: Lintilla
 type: shield
-url: https://github.com/Kikkasut/zmk-config-lintilla
-requires: [pro_micro]
-exposes: [i2c_oled]
+url: https://github.com/ctranstrum/lintilla
+requires:
+  - xiao_ble
+exposes:
+  - i2c_oled
 features:
   - keys
+  - display
 siblings:
-  - lintilla_left
-  - lintilla_right
+  - lintilla_left_central
+  - lintilla_left_peripheral
+  - lintilla_right_peripheral
   - lintilla_dongle
+  - lintilla_simple_dongle

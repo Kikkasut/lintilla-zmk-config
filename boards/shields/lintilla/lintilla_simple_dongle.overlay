@@ -5,10 +5,7 @@
  */
 
 #include "lintilla.dtsi"
-
-&default_transform {
-	col-offset = <6>;
-};
+#include "lintilla_kscan.dtsi"
 
 &kscan0 {
 	col-gpios
