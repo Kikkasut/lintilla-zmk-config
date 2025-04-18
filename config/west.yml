@@ -9,31 +9,3 @@ manifest:
       import: app/west.yml
   self:
     path: config
-  # remotes:
-  #   - name: zmkfirmware
-  #     url-base: https://github.com/zmkfirmware
-  #   - name: ctranstrum # <-- add this for the keyboard
-  #     url-base: https://github.com/ctranstrum
-  #   - name: caksoylar # <-- and this for the LED
-  #     url-base: https://github.com/caksoylar
-  #   - name: aroum # <-- if you want a dongle
-  #     url-base: https://github.com/aroum
-  # projects:
-  #   - name: zmk
-  #     remote: zmkfirmware
-  #     revision: main
-  #     import: app/west.yml
-  #   - name: lintilla # <-- add this for the keyboard
-  #     remote: ctranstrum
-  #     revision: zmk
-  #   - name: zmk-rgbled-widget # <-- and this for the LED
-  #     remote: caksoylar
-  #     revision: main
-  #   # - name: zmk-dongle-dislay
-  #   #   remote: englmaxi
-  #   #   revision: main
-  #   - name: zmk-enki42-dongle
-  #     remote: aroum
-  #     revision: xiao_dongle
-  # self:
-  #   path: config
