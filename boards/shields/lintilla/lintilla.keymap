@@ -56,21 +56,21 @@
 //                       ┗━━━━━━━━━━━━━━━━━━━━━━━━━┛
             bindings = <
 //         ┏━━━━━━━┓                                                                                          ┏━━━━━━━┓
-//           MUTE                                                                                             ┃  DEL  ┃
-          &lt 5 C_MUTE                                                                                         &kp DEL
+//         ┃ Esc   ┃                                                                                          ┃ BSPC  ┃
+            &kp ESC                                                                                           &kp BSPC
 // ┏━━━━━━━╋━━━━━━━╋━━━━━━━┳━━━━━━━┳━━━━━━━┳━━━━━━━┓                          ┏━━━━━━━┳━━━━━━━┳━━━━━━━┳━━━━━━━╋━━━━━━━╋━━━━━━━┓
-// ┃  ESC  ┃   F   ┃   P   ┃   D   ┃   L   ┃   X   ┃                          ┃   ;   ┃   U   ┃   O   ┃   Y   ┃   B   ┃   Z   ┃
-    &kp ESC  &kp F   &kp P   &kp D   &kp L   &kp X                            &kp SEMI  &kp U   &kp O   &kp Y   &kp B   &kp Z
+// ┃  TAB  ┃   Q   ┃   W   ┃   E   ┃   R   ┃   T   ┃                          ┃   Y   ┃   U   ┃   I   ┃   O   ┃   P   ┃  ' "  ┃
+    &kp TAB  &kp Q   &kp W   &kp E   &kp R   &kp T                              &kp Y   &kp U   &kp I   &kp O   &kp P  &kp SQT
 // ┣━━━━━━━╋━━━━━━━╋━━━━━━━╋━━━━━━━╋━━━━━━━╋━━━━━━━┫                          ┣━━━━━━━╋━━━━━━━╋━━━━━━━╋━━━━━━━╋━━━━━━━╋━━━━━━━┫
-// ┃  TAB  ┃   S   ┃   N   ┃   T   ┃   H   ┃   K   ┃                          ┃   ,   ┃   A   ┃   E   ┃   I   ┃   C   ┃   Q   ┃
-   &lt 4 DEL LGm S   LAm N   LSm T   LCm H   &kp K                           &kp COMMA  RCm A   RSm K   RAm L   RGm C   &kp Q
-// ┃ keybd ┃ LGUI  ┃ LALT  ┃ LSHFT ┃ LCTRL ┃       ┃                          ┃       ┃ RSHFT ┃ LCTRL ┃ LALT  ┃ RGUI  ┃       ┃
+// ┃  DEL  ┃   A   ┃   S   ┃   D   ┃   F   ┃   G   ┃                          ┃   H   ┃   J   ┃   K   ┃   L   ┃  ; :  ┃ RETURN┃
+   &lt 4 DEL LGm A   LAm S   LCm D   LSm F   &kp G                              &kp H   RSm J   LCm K   LAm L  RGm SEMI &kp RET
+// ┃ keybd ┃ LGUI  ┃ LAlt  ┃ LCTRL ┃ LSHFT ┃       ┃                          ┃       ┃ RSHFT ┃ LCTRL ┃ LALT  ┃ RGUI  ┃       ┃
 // ┗━━━━━━━╋━━━━━━━╋━━━━━━━╋━━━━━━━╋━━━━━━━╋━━━━━━━┫                          ┣━━━━━━━╋━━━━━━━╋━━━━━━━╋━━━━━━━╋━━━━━━━╋━━━━━━━┛
-//         ┃   V   ┃   W   ┃   G   ┃   M   ┃   J   ┃                          ┃   -   ┃   .   ┃   '   ┃   =   ┃   /   ┃
-             &kp V   &kp W   &kp G   &kp M   &kp J                          &kp MINUS &kp DOT &kp SQT &kp EQUAL &kp SLASH
+//         ┃   Z   ┃   X   ┃   C   ┃   V   ┃   B   ┃                          ┃   N   ┃   M   ┃  , <  ┃  . >  ┃  / ?  ┃
+             &kp Z   &kp X   &kp C   &kp V   &kp B                              &kp N   &kp M &kp COMMA &kp DOT &kp FSLH
 //         ┗━━━━━━━┻━━━━━━━┻━━━━━━━┻━━━┳━━━┻━━━┳━━━┻━━━┳━━━━━━━┓  ┏━━━━━━━┳━━━┻━━━┳━━━┻━━━┳━━━┻━━━━━━━┻━━━━━━━┻━━━━━━━┛
-//                                     ┃   R   ┃ SHIFT ┃  DEL  ┃  ┃  L1   ┃ SPACE ┃ BKSPC ┃
-                                       &kp R  &sk LSHIFT &p DEL     &to 1  &kp SPC &kp BSPC
+//                                     ┃  num  ┃ SHIFT ┃  FN   ┃  ┃  SYM  ┃ SPACE ┃  nav  ┃
+                                         &mo 1 &kp LSHFT &mo 3      &mo 5  &kp SPC  &mo 2
 //                                     ┗━━━━━━━┫       ┣━━━━━━━┛  ┗━━━━━━━┫       ┣━━━━━━━┛
 //                                             ┗━━━━━━━┛                  ┗━━━━━━━┛
             >;
@@ -82,21 +82,21 @@
 //                       ┗━━━━━━━━━━━━━━━━━━━━━━━━━┛
             bindings = <
 //         ┏━━━━━━━┓                                                                                          ┏━━━━━━━┓
-//           MUTE                                                                                             ┃  DEL  ┃
-          &lt 5 C_MUTE                                                                                         &kp DEL
+//         ┃       ┃                                                                                          ┃  DEL  ┃
+             &none                                                                                             &kp DEL
 // ┏━━━━━━━╋━━━━━━━╋━━━━━━━┳━━━━━━━┳━━━━━━━┳━━━━━━━┓                          ┏━━━━━━━┳━━━━━━━┳━━━━━━━┳━━━━━━━╋━━━━━━━╋━━━━━━━┓
-// ┃       ┃ CtrlY ┃ CtrlE ┃ CtrlD ┃ CtrlA ┃       ┃                          ┃   /   ┃   7   ┃   8   ┃   9   ┃   -   ┃ BKSPC ┃
-  &none &kp LC(Y) &kp LC(E) &kp LC(D) &kp LG(A) &none                            &kp SLASH &kp N7 &kp N8  &kp N9 &kp MINUS &kp BSPC
+// ┃       ┃   1   ┃   2   ┃   3   ┃   4   ┃   5   ┃                          ┃   6   ┃   7   ┃   8   ┃   9   ┃   0   ┃       ┃
+     &none  &kp N1  &kp N2  &kp N3  &kp N4  &kp N5                             &kp N6  &kp N7  &kp N8  &kp N9  &kp N0  &none
 // ┣━━━━━━━╋━━━━━━━╋━━━━━━━╋━━━━━━━╋━━━━━━━╋━━━━━━━┫                          ┣━━━━━━━╋━━━━━━━╋━━━━━━━╋━━━━━━━╋━━━━━━━╋━━━━━━━┫
-// ┃       ┃ CtrlZ ┃ CtrlX ┃ CtrlC ┃ CtrlV ┃       ┃                          ┃   *   ┃   4   ┃   5   ┃   6   ┃   +   ┃RETURN ┃
-&kp TAB LGm LC(Z) LAm LC(X) LSm LC(C) LCm LG(V) &none                            &kp STAR &kp N4  &kp N5  &kp N6 &kp PLUS &kp RET
-// ┃       ┃ LGUI  ┃ LALT  ┃ LSHFT ┃ LCTRL ┃       ┃                          ┃       ┃       ┃       ┃       ┃       ┃       ┃
+// ┃       ┃ LGUI  ┃ LAlt  ┃ LCTRL ┃ LSHFT ┃       ┃                          ┃       ┃ SHIFT ┃  CTRL ┃  ALT  ┃ RGUI  ┃       ┃
+    &none &kp LGUI &kp LALT &kp LCTL &kp LSHFT &none                          &none &kp RSHFT &kp LCTL &kp LALT &kp RGUI &none
+// ┃       ┃       ┃       ┃       ┃       ┃       ┃                          ┃       ┃       ┃       ┃       ┃       ┃       ┃
 // ┗━━━━━━━╋━━━━━━━╋━━━━━━━╋━━━━━━━╋━━━━━━━╋━━━━━━━┫                          ┣━━━━━━━╋━━━━━━━╋━━━━━━━╋━━━━━━━╋━━━━━━━╋━━━━━━━┛
-//         ┃       ┃ CS-K  ┃ CS-C  ┃ CS-C  ┃       ┃                          ┃   :   ┃   1   ┃   2   ┃   3   ┃   =   ┃
-             &none  CS(K) &kp LC(HASH) CS(C) &none                            &kp COLON &kp N1 &kp N2  &kp N3 &kp EQUAL
+//         ┃ CtrlZ ┃ CtrlX ┃ CtrlC ┃ CtrlV ┃       ┃                          ┃       ┃       ┃       ┃       ┃       ┃
+         &kp LC(Z) &kp LC(X) &kp LC(C) &kp LC(V) &none                          &none   &none   &none   &none   &none
 //         ┗━━━━━━━┻━━━━━━━┻━━━━━━━┻━━━┳━━━┻━━━┳━━━┻━━━┳━━━━━━━┓  ┏━━━━━━━┳━━━┻━━━┳━━━┻━━━┳━━━┻━━━━━━━┻━━━━━━━┻━━━━━━━┛
-//                                     ┃   L3  ┃   L0  ┃  DEL  ┃  ┃   .   ┃ SPACE ┃   0   ┃
-                                         &to 3   &to 0   &p DEL    &kp COMMA &kp SPC &kp N0
+//                                     ┃ ##### ┃       ┃       ┃  ┃       ┃ SPACE ┃       ┃
+                                         &trans  &trans  &none      &none  &kp SPC  &none
 //                                     ┗━━━━━━━┫       ┣━━━━━━━┛  ┗━━━━━━━┫       ┣━━━━━━━┛
 //                                             ┗━━━━━━━┛                  ┗━━━━━━━┛
             >;
@@ -111,18 +111,18 @@
 //         ┃       ┃                                                                                          ┃  DEL  ┃
              &none                                                                                             &kp DEL
 // ┏━━━━━━━╋━━━━━━━╋━━━━━━━┳━━━━━━━┳━━━━━━━┳━━━━━━━┓                          ┏━━━━━━━┳━━━━━━━┳━━━━━━━┳━━━━━━━╋━━━━━━━╋━━━━━━━┓
-// ┃       ┃       ┃       ┃       ┃       ┃       ┃                          ┃ Pg Up ┃       ┃       ┃       ┃       ┃      ┃
-     &none   &none   &none   &none   &none   &none                            &kp PG_UP &none   &none   &none   &none  &none
+// ┃       ┃       ┃       ┃       ┃       ┃       ┃                          ┃ Pg Up ┃ Home  ┃  END  ┃       ┃       ┃       ┃
+     &none   &none   &none   &none   &none   &none                            &kp PG_UP &kp HOME &kp END &none  &none   &none
 // ┣━━━━━━━╋━━━━━━━╋━━━━━━━╋━━━━━━━╋━━━━━━━╋━━━━━━━┫                          ┣━━━━━━━╋━━━━━━━╋━━━━━━━╋━━━━━━━╋━━━━━━━╋━━━━━━━┫
-// ┃       ┃ Cmd A ┃       ┃       ┃       ┃       ┃                          ┃ Home  ┃ Left  ┃  Up   ┃ Right ┃  End  ┃RETURN ┃
-   &none Sft LG(A) &kp LCTL &kp LALT &kp LGUI &kp RALT                      &kp HOME &kp LEFT &kp UP &kp RIGHT &kp END &kp RET
-// ┃       ┃ Shift ┃ Ctrl  ┃  Opt  ┃  Cmd  ┃ R Alt ┃                          ┃       ┃       ┃       ┃       ┃       ┃       ┃
+// ┃       ┃ LGUI  ┃ LAlt  ┃ LCTRL ┃ LSHFT ┃       ┃                          ┃   ←   ┃   ↓   ┃   ↑   ┃   →   ┃       ┃       ┃
+    &none &kp LGUI &kp LALT &kp LCTL &kp LSHFT &none                          &kp LEFT &kp DOWN &kp UP &kp RIGHT &none  &none
+// ┃       ┃       ┃       ┃       ┃       ┃       ┃                          ┃       ┃       ┃       ┃       ┃       ┃       ┃
 // ┗━━━━━━━╋━━━━━━━╋━━━━━━━╋━━━━━━━╋━━━━━━━╋━━━━━━━┫                          ┣━━━━━━━╋━━━━━━━╋━━━━━━━╋━━━━━━━╋━━━━━━━╋━━━━━━━┛
-//         ┃ Cmd Z ┃ Cmd X ┃ Cmd C ┃ Cmd V ┃       ┃                          ┃ Pg Dn ┃       ┃ Down  ┃       ┃       ┃
-         &kp LG(Z) &kp LG(X) &kp LG(C) &kp LG(V) &none                        &kp PG_DN &none  &kp DOWN &none   &none
+//         ┃ CtrlZ ┃ CtrlX ┃ CtrlC ┃ CtrlV ┃       ┃                          ┃ Pg Dn ┃       ┃       ┃       ┃       ┃
+        &kp LC(Z) &kp LC(X) &kp LC(C) &kp LC(V) &none                        &kp PG_DN &mkp MB4 &mkp MB5 &none  &none
 //         ┗━━━━━━━┻━━━━━━━┻━━━━━━━┻━━━┳━━━┻━━━┳━━━┻━━━┳━━━━━━━┓  ┏━━━━━━━┳━━━┻━━━┳━━━┻━━━┳━━━┻━━━━━━━┻━━━━━━━┻━━━━━━━┛
-//                                     ┃  fn   ┃       ┃       ┃  ┃       ┃ SPACE ┃ BKSPC ┃
-                                         &mo 1 &sk LSHFT &none      &none  &kp SPC &kp BSPC
+//                                     ┃       ┃       ┃       ┃  ┃       ┃       ┃ ##### ┃
+                                        &none &kp LSHFT  &none      &none  &kp SPC  &trans
 //                                     ┗━━━━━━━┫       ┣━━━━━━━┛  ┗━━━━━━━┫       ┣━━━━━━━┛
 //                                             ┗━━━━━━━┛                  ┗━━━━━━━┛
             >;
