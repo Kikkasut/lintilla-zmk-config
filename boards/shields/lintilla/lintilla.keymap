@@ -141,13 +141,13 @@
      &none  &kp F1  &kp F2  &kp F3  &kp F4  &kp F10                            &kp F6  &kp F7  &kp F8  &kp F9  &kp F10  &kp F11
 // ┣━━━━━━━╋━━━━━━━╋━━━━━━━╋━━━━━━━╋━━━━━━━╋━━━━━━━┫                          ┣━━━━━━━╋━━━━━━━╋━━━━━━━╋━━━━━━━╋━━━━━━━╋━━━━━━━┫
 // ┃       ┃ CtrlZ ┃ CtrlX ┃ CtrlC ┃ CtrlV ┃       ┃                          ┃       ┃  CTRL ┃  SHFT ┃  ALT  ┃  GUI  ┃  F12  ┃
-&kp TAB LGm LC(Z) LAm LC(X) LSm LC(C) LCm LG(V) &none                           &none  &kp RCm &kp RSm &kp RAm &kp RGm &kp F12
+&kp TAB LGm LC(Z) LAm LC(X) LSm LC(C) LCm LG(V) &none                           &none    RCm     RSm     RAm     RGm   &kp F12
 // ┃       ┃  GUI  ┃  ALT  ┃  SHFT ┃  CTRL ┃       ┃                          ┃       ┃  CTRL ┃  SHFT ┃  ALT  ┃  GUI  ┃       ┃
 // ┗━━━━━━━╋━━━━━━━╋━━━━━━━╋━━━━━━━╋━━━━━━━╋━━━━━━━┫                          ┣━━━━━━━╋━━━━━━━╋━━━━━━━╋━━━━━━━╋━━━━━━━╋━━━━━━━┛
 //         ┃ CtrlZ ┃ CtrlX ┃ CtrlC ┃ CtrlV ┃       ┃                          ┃       ┃       ┃       ┃       ┃       ┃
         &kp LC(Z) &kp LC(X) &kp LC(C) &kp LC(V) &none                           &none   &none   &none   &none   &none
 //         ┗━━━━━━━┻━━━━━━━┻━━━━━━━┻━━━┳━━━┻━━━┳━━━┻━━━┳━━━━━━━┓  ┏━━━━━━━┳━━━┻━━━┳━━━┻━━━┳━━━┻━━━━━━━┻━━━━━━━┻━━━━━━━┛
-//                                     ┃       ┃       ┃ ##### ┃  ┃  F12  ┃  F11  ┃  F10  ┃
+//                                     ┃       ┃       ┃       ┃  ┃  F12  ┃  F11  ┃  F10  ┃
                                          &none   &none  &trans     &kp F12 &kp F11 &kp F10
 //                                     ┗━━━━━━━┫       ┣━━━━━━━┛  ┗━━━━━━━┫       ┣━━━━━━━┛
 //                                             ┗━━━━━━━┛                  ┗━━━━━━━┛
