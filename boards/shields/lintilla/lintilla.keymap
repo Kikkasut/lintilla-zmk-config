@@ -22,6 +22,9 @@
 #define RSm &hm RSHFT
 #define RCm &hm RCTRL
 
+// Magic bluetooth button
+#define BT_(btnum) &bt_key btnum btnum
+
 / {
     behaviors {
         hm: homerow_mod {
