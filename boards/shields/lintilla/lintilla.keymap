@@ -64,7 +64,7 @@
 // ┣━━━━━━━╋━━━━━━━╋━━━━━━━╋━━━━━━━╋━━━━━━━╋━━━━━━━┫                          ┣━━━━━━━╋━━━━━━━╋━━━━━━━╋━━━━━━━╋━━━━━━━╋━━━━━━━┫
 // ┃  TAB  ┃   S   ┃   N   ┃   T   ┃   H   ┃   K   ┃                          ┃   ,   ┃   A   ┃   E   ┃   I   ┃   C   ┃   Q   ┃
    &lt 4 DEL LGm S   LAm N   LSm T   LCm H   &kp K                           &kp COMMA  RCm A   RSm K   RAm L   RGm C   &kp Q
-// ┃ keybd ┃ LGUI  ┃ LALT  ┃ LSHFT ┃ LCTRL ┃       ┃                          ┃       ┃ RSHFT ┃ LCTRL ┃ LALT  ┃ RGUI  ┃       ┃
+// ┃ keybd ┃  GUI  ┃  ALT  ┃  SHFT ┃  CTRL ┃       ┃                          ┃       ┃  CTRL ┃  SHFT ┃  ALT  ┃  GUI  ┃       ┃
 // ┗━━━━━━━╋━━━━━━━╋━━━━━━━╋━━━━━━━╋━━━━━━━╋━━━━━━━┫                          ┣━━━━━━━╋━━━━━━━╋━━━━━━━╋━━━━━━━╋━━━━━━━╋━━━━━━━┛
 //         ┃   V   ┃   W   ┃   G   ┃   M   ┃   J   ┃                          ┃   -   ┃   .   ┃   '   ┃   =   ┃   /   ┃
              &kp V   &kp W   &kp G   &kp M   &kp J                          &kp MINUS &kp DOT &kp SQT &kp EQUAL &kp SLASH
@@ -90,7 +90,7 @@
 // ┣━━━━━━━╋━━━━━━━╋━━━━━━━╋━━━━━━━╋━━━━━━━╋━━━━━━━┫                          ┣━━━━━━━╋━━━━━━━╋━━━━━━━╋━━━━━━━╋━━━━━━━╋━━━━━━━┫
 // ┃       ┃ CtrlZ ┃ CtrlX ┃ CtrlC ┃ CtrlV ┃       ┃                          ┃   *   ┃   4   ┃   5   ┃   6   ┃   +   ┃RETURN ┃
 &kp TAB LGm LC(Z) LAm LC(X) LSm LC(C) LCm LG(V) &none                            &kp STAR &kp N4  &kp N5  &kp N6 &kp PLUS &kp RET
-// ┃       ┃ LGUI  ┃ LALT  ┃ LSHFT ┃ LCTRL ┃       ┃                          ┃       ┃       ┃       ┃       ┃       ┃       ┃
+// ┃       ┃  GUI  ┃  ALT  ┃  SHFT ┃  CTRL ┃       ┃                          ┃       ┃       ┃       ┃       ┃       ┃       ┃
 // ┗━━━━━━━╋━━━━━━━╋━━━━━━━╋━━━━━━━╋━━━━━━━╋━━━━━━━┫                          ┣━━━━━━━╋━━━━━━━╋━━━━━━━╋━━━━━━━╋━━━━━━━╋━━━━━━━┛
 //         ┃       ┃ CS-K  ┃ CS-C  ┃ CS-C  ┃       ┃                          ┃   :   ┃   1   ┃   2   ┃   3   ┃   =   ┃
              &none  CS(K) &kp LC(HASH) CS(C) &none                            &kp COLON &kp N1 &kp N2  &kp N3 &kp EQUAL
@@ -111,15 +111,15 @@
 //           MUTE                                                                                             ┃  DEL  ┃
            &kp C_MUTE                                                                                          &kp DEL
 // ┏━━━━━━━╋━━━━━━━╋━━━━━━━┳━━━━━━━┳━━━━━━━┳━━━━━━━┓                          ┏━━━━━━━┳━━━━━━━┳━━━━━━━┳━━━━━━━╋━━━━━━━╋━━━━━━━┓
-// ┃       ┃       ┃       ┃       ┃       ┃       ┃                          ┃ Pg Up ┃       ┃       ┃       ┃       ┃      ┃
-     &none   &none   &none   &none   &none   &none                            &kp PG_UP &none   &none   &none   &none  &none
+// ┃       ┃ CtrlY ┃ CtrlE ┃ CtrlD ┃ CtrlA ┃       ┃                          ┃ Pg Up ┃       ┃       ┃       ┃       ┃      ┃
+  &none &kp LC(Y) &kp LC(E) &kp LC(D) &kp LG(A) &none                         &kp PG_UP &none   &none   &none   &none  &none
 // ┣━━━━━━━╋━━━━━━━╋━━━━━━━╋━━━━━━━╋━━━━━━━╋━━━━━━━┫                          ┣━━━━━━━╋━━━━━━━╋━━━━━━━╋━━━━━━━╋━━━━━━━╋━━━━━━━┫
-// ┃       ┃ Cmd A ┃       ┃       ┃       ┃       ┃                          ┃ Home  ┃ Left  ┃  Up   ┃ Right ┃  End  ┃RETURN ┃
-   &none Sft LG(A) &kp LCTL &kp LALT &kp LGUI &kp RALT                      &kp HOME &kp LEFT &kp UP &kp RIGHT &kp END &kp RET
-// ┃       ┃ Shift ┃ Ctrl  ┃  Opt  ┃  Cmd  ┃ R Alt ┃                          ┃       ┃       ┃       ┃       ┃       ┃       ┃
+// ┃       ┃ CtrlZ ┃ CtrlX ┃ CtrlC ┃ CtrlV ┃       ┃                          ┃ Home  ┃ Left  ┃  Up   ┃ Right ┃  End  ┃RETURN ┃
+&kp TAB LGm LC(Z) LAm LC(X) LSm LC(C) LCm LG(V) &none                      &kp HOME &kp LEFT &kp UP &kp RIGHT &kp END &kp RET
+// ┃       ┃  GUI  ┃  ALT  ┃  SHFT ┃  CTRL ┃       ┃                          ┃       ┃       ┃       ┃       ┃       ┃       ┃
 // ┗━━━━━━━╋━━━━━━━╋━━━━━━━╋━━━━━━━╋━━━━━━━╋━━━━━━━┫                          ┣━━━━━━━╋━━━━━━━╋━━━━━━━╋━━━━━━━╋━━━━━━━╋━━━━━━━┛
-//         ┃ Cmd Z ┃ Cmd X ┃ Cmd C ┃ Cmd V ┃       ┃                          ┃ Pg Dn ┃       ┃ Down  ┃       ┃       ┃
-         &kp LG(Z) &kp LG(X) &kp LG(C) &kp LG(V) &none                        &kp PG_DN &none  &kp DOWN &none   &none
+//         ┃       ┃ CS-K  ┃ CS-C  ┃ CS-C  ┃       ┃                          ┃ Pg Dn ┃       ┃ Down  ┃       ┃       ┃
+             &none  CS(K) &kp LC(HASH) CS(C) &none                            &kp PG_DN &none  &kp DOWN &none   &none
 //         ┗━━━━━━━┻━━━━━━━┻━━━━━━━┻━━━┳━━━┻━━━┳━━━┻━━━┳━━━━━━━┓  ┏━━━━━━━┳━━━┻━━━┳━━━┻━━━┳━━━┻━━━━━━━┻━━━━━━━┻━━━━━━━┛
 //                                     ┃  fn   ┃       ┃       ┃  ┃       ┃ SPACE ┃ BKSPC ┃
                                          &mo 1 &sk LSHFT &none      &none  &kp SPC &kp BSPC
@@ -140,8 +140,9 @@
 // ┃       ┃   F1  ┃  F2   ┃  F3   ┃  F4   ┃  F5   ┃                          ┃   F6  ┃  F7   ┃  F8   ┃  F9   ┃  F10  ┃  F11  ┃
      &none  &kp F1  &kp F2  &kp F3  &kp F4  &kp F10                            &kp F6  &kp F7  &kp F8  &kp F9  &kp F10  &kp F11
 // ┣━━━━━━━╋━━━━━━━╋━━━━━━━╋━━━━━━━╋━━━━━━━╋━━━━━━━┫                          ┣━━━━━━━╋━━━━━━━╋━━━━━━━╋━━━━━━━╋━━━━━━━╋━━━━━━━┫
-// ┃       ┃ LGUI  ┃ LALT  ┃ LCTRL ┃ LSHFT ┃       ┃                          ┃       ┃ SHIFT ┃  CTRL ┃  ALT  ┃ RGUI  ┃  F12  ┃
-    &none &kp LGUI &kp LALT &kp LCTL &kp LSHFT &none                          &none &kp RSHFT &kp LCTL &kp LALT &kp RGUI &kp F12
+// ┃       ┃ CtrlZ ┃ CtrlX ┃ CtrlC ┃ CtrlV ┃       ┃                          ┃       ┃  CTRL ┃  SHFT ┃  ALT  ┃  GUI  ┃  F12  ┃
+&kp TAB LGm LC(Z) LAm LC(X) LSm LC(C) LCm LG(V) &none                           &none  &kp RCm &kp RSm &kp RAm &kp RGm &kp F12
+// ┃       ┃  GUI  ┃  ALT  ┃  SHFT ┃  CTRL ┃       ┃                          ┃       ┃  CTRL ┃  SHFT ┃  ALT  ┃  GUI  ┃       ┃
 // ┗━━━━━━━╋━━━━━━━╋━━━━━━━╋━━━━━━━╋━━━━━━━╋━━━━━━━┫                          ┣━━━━━━━╋━━━━━━━╋━━━━━━━╋━━━━━━━╋━━━━━━━╋━━━━━━━┛
 //         ┃ CtrlZ ┃ CtrlX ┃ CtrlC ┃ CtrlV ┃       ┃                          ┃       ┃       ┃       ┃       ┃       ┃
         &kp LC(Z) &kp LC(X) &kp LC(C) &kp LC(V) &none                           &none   &none   &none   &none   &none
